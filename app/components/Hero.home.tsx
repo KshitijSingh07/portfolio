@@ -1,4 +1,3 @@
-// components/Hero.tsx
 'use client';
 
 import Link from 'next/link';
@@ -12,10 +11,10 @@ export default function Hero() {
         {/* Left Section - Intro and Links */}
         <div className="text-center md:text-left space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold">
-            Hi, I'm <span className="text-blue-500">Kshitij Singh</span>
+            Hi, I&apos;m <span className="text-blue-500">Kshitij Singh</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-500 dark:text-gray-400 max-w-xl mx-auto md:mx-0">
-            I'm a passionate Software Engineer and Full Stack Developer with expertise in building scalable web applications using Next.js and the MERN stack. I’m proficient in Java, C++, and JavaScript, and well-versed in Data Structures, Algorithms, and Backend Systems.
+            I&apos;m a passionate Software Engineer and Full Stack Developer with expertise in building scalable web applications using Next.js and the MERN stack. I&rsquo;m proficient in Java, C++, and JavaScript, and well-versed in Data Structures, Algorithms, and Backend Systems.
           </p>
 
           <div className="flex flex-wrap justify-center md:justify-start gap-4 pt-4">
@@ -38,7 +37,7 @@ export default function Hero() {
         {/* Right Section - Description */}
         <Description />
       </div>
-        <SkillsSection/>
+      <SkillsSection />
     </div>
   );
 }
