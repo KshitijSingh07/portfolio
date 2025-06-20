@@ -25,19 +25,19 @@ export default function AboutPage() {
                 {/* Info */}
                 <div className="text-gray-800 dark:text-gray-200 space-y-5 text-justify">
                     <p>
-                        Hi! I'm <strong>Kshitij Singh</strong>, a passionate Full-Stack Developer and Computer Science undergrad at IIIT Senapati, Manipur.
+                        Hi! I &apos; m <strong>Kshitij Singh</strong>&comma; a passionate Full-Stack Developer and Computer Science undergrad at IIIT Senapati &comma; Manipur.
                     </p>
 
                     <p>
-                        I enjoy building full-stack web apps that solve real-world problems. Whether it's crafting responsive UIs with <strong>React.js</strong> or designing secure backends with <strong>Node.js</strong> and <strong>Express</strong>, I love the challenge of turning ideas into reality.
+                        I enjoy building full-stack web apps that solve real-world problems. Whether it &apos; s crafting responsive UIs with <strong>React.js</strong> or designing secure backends with <strong>Node.js</strong> and <strong>Express</strong> &comma; I love the challenge of turning ideas into reality.
                     </p>
 
                     <p>
-                        I’m currently exploring advanced concepts in <strong>Next.js</strong>, improving my DSA skills, and building projects that reflect my learning journey.
+                        I &apos; m currently exploring advanced concepts in <strong>Next.js</strong> &comma; improving my DSA skills &comma; and building projects that reflect my learning journey.
                     </p>
 
                     <p>
-                        Feel free to check out my projects, connect with me, or reach out for collaboration!
+                        Feel free to check out my projects &comma; connect with me, or reach out for collaboration!
                     </p>
 
                     <ul className="list-disc list-inside text-sm">
