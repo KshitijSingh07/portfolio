@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
+export const metadata : Metadata = {
   title: "Kshitij Singh | Portfolio",
   description: "I'm Kshitij Singh — Full Stack Developer passionate about building scalable web apps.",
   icons: {
