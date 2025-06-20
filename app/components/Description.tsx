@@ -2,8 +2,6 @@
 
 import React from "react";
 
-
-
 export default function Description() {
     return (
         // Replicating Card component structure and styling
@@ -11,11 +9,11 @@ export default function Description() {
             {/* Replicating CardContent component structure and styling */}
             <div className="p-6 space-y-6">
                 <p className="text-base md:text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-                    I&apos;m <strong>Kshitij Singh</strong>, a passionate <strong>Software Engineer and Full Stack Developer</strong> dedicated to building dynamic and efficient web applications. With a strong academic foundation in Computer Science &amp; Engineering from the Indian Institute of Information Technology (IIIT), Senapati, Manipur, I achieved a CGPA of 8.23 and consistently excelled in core subjects like C/C++ Programming.
+                    I&apos;m <strong>Kshitij Singh</strong>, a passionate <strong>Software Engineer and Full Stack Developer</strong> dedicated to building dynamic and efficient web applications. With a strong academic foundation in Computer Science &amp; Engineering from the Indian Institute of Information Technology (IIIT), Senapati, Manipur, I achieved a CGPA of 8.23 and consistently excelled in core subjects like C/C&#43;&#43; Programming.
                 </p>
 
                 <p className="text-base md:text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-                    My technical toolkit spans across modern technologies. I&apos;m proficient in Java, C++, JavaScript, and Python. I specialize in web development using Next.js and the MERN Stack (MongoDB, Express.js, React.js, Node.js), along with Django. For UI/UX, I use React.js, HTML, CSS, Bootstrap, and Tailwind CSS. I also build powerful RESTful APIs and manage databases like MongoDB and MySQL.
+                    My technical toolkit spans across modern technologies. I&apos;m proficient in Java, C&#43;&#43;, JavaScript, and Python. I specialize in web development using Next.js and the MERN Stack (MongoDB, Express.js, React.js, Node.js), along with Django. For UI/UX, I use React.js, HTML, CSS, Bootstrap, and Tailwind CSS. I also build powerful RESTful APIs and manage databases like MongoDB and MySQL.
                 </p>
 
                 <p className="text-base md:text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
