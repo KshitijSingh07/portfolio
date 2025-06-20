@@ -14,7 +14,7 @@ export default function Hero() {
             Hi, I&apos;m <span className="text-blue-500">Kshitij Singh</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-500 dark:text-gray-400 max-w-xl mx-auto md:mx-0">
-            I&apos;m a passionate Software Engineer and Full Stack Developer with expertise in building scalable web applications using Next.js and the MERN stack. I&rsquo;m proficient in Java, C++, and JavaScript, and well-versed in Data Structures, Algorithms, and Backend Systems.
+            I&apos;m a passionate Software Engineer and Full Stack Developer with expertise in building scalable web applications using Next.js and the MERN stack. I&apos;m proficient in Java, C++, and JavaScript, and well-versed in Data Structures, Algorithms, and Backend Systems.
           </p>
 
           <div className="flex flex-wrap justify-center md:justify-start gap-4 pt-4">
