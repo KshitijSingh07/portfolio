@@ -16,7 +16,7 @@ export default function Description() {
         </p>
 
         <p className="text-base md:text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-          My strengths lie in Data Structures &amp; Algorithms, Object-Oriented Programming, and Competitive Programming. I&apos;m certified in DSA with Java. I&rsquo;m also comfortable using Git, GitHub, Render, and Postman — tools that support efficient development and deployment.
+          My strengths lie in Data Structures &amp; Algorithms, Object-Oriented Programming, and Competitive Programming. I&apos;m certified in DSA with Java. I&apos;m also comfortable using Git, GitHub, Render, and Postman — tools that support efficient development and deployment.
         </p>
       </CardContent>
     </Card>
