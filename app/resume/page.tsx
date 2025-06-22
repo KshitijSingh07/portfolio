@@ -1,7 +1,7 @@
 export default function Resume() {
   return (
     <main className="flex flex-col min-h-screen px-4 sm:px-6 py-10 sm:py-16">
-      <h1 className="text-3xl sm:text-4xl font-bold text-center text-blue-700 mb-8 sm:mb-10">
+      <h1 className="text-3xl sm:text-4xl font-bold text-center  mb-8 sm:mb-10">
         My Resume
       </h1>
 

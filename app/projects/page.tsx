@@ -40,6 +40,52 @@ export default function projects() {
                 </CardFooter>
             </Card>
 
+
+            <Card>
+                <CardHeader>
+                    <CardTitle>Portfolio Website (2025) – Developer Showcase</CardTitle>
+                    <CardDescription>
+                        A personal portfolio site to highlight my resume, projects, skills, and contact info with a modern UI and responsive design.
+                    </CardDescription>
+                </CardHeader>
+
+                <CardContent>
+                    <ul className="list-disc list-inside text-sm text-muted-foreground space-y-1">
+                        <li>Built with Next.js App Router and Tailwind CSS for optimal performance</li>
+                        <li>Responsive UI with light/dark theme toggle using shadcn/ui</li>
+                        <li>Resume embedded as PDF viewer with download functionality</li>
+                        <li>Modular component architecture for scalability and maintainability</li>
+                        <li>Deployed on Vercel </li>
+                    </ul>
+                </CardContent>
+
+                <CardAction className="flex gap-4">
+                    <Button variant="link" asChild>
+                        <a
+                            href="https://portfolio-kj07.vercel.app"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Live Site
+                        </a>
+                    </Button>
+                    <Button variant="link" asChild>
+                        <a
+                            href="https://github.com/KshitijSingh07/portfolio"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub
+                        </a>
+                    </Button>
+                </CardAction>
+
+                <CardFooter className="text-xs text-gray-500">
+                    Tech Stack: Next.js • Tailwind CSS • shadcn/ui • Vercel
+                </CardFooter>
+            </Card>
+
+
             <Card>
                 <CardHeader>
                     <CardTitle>Wanderlust &#40;2024&#41; – Property Listings Web App</CardTitle>
@@ -83,7 +129,6 @@ export default function projects() {
                     Tech Stack: MongoDB • Express.js • Node.js • EJS
                 </CardFooter>
             </Card>
-
 
 
 
