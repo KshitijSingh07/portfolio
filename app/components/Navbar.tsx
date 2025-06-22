@@ -25,6 +25,9 @@ export default function Navbar() {
             <Link href="/skills">Skills</Link>
           </li>
           <li className="hover:text-blue-500 transition-colors">
+            <Link href="/resume">Resume</Link>
+          </li>
+          <li className="hover:text-blue-500 transition-colors">
             <Link href="/">Home</Link>
           </li>
           <li className="hover:text-blue-500 transition-colors">
@@ -54,6 +57,7 @@ export default function Navbar() {
         <div className="md:hidden mt-2 px-4 space-y-2 text-gray-700 dark:text-white font-semibold">
           <Link href="/projects" className="block hover:text-blue-500" onClick={() => setMenuOpen(false)}>Projects</Link>
           <Link href="/skills" className="block hover:text-blue-500" onClick={() => setMenuOpen(false)}>Skills</Link>
+          <Link href="/resume" className="block hover:text-blue-500" onClick={() => setMenuOpen(false)}>Resume</Link>
           <Link href="/" className="block hover:text-blue-500" onClick={() => setMenuOpen(false)}>Home</Link>
           <Link href="/about" className="block hover:text-blue-500" onClick={() => setMenuOpen(false)}>About</Link>
           <Link href="/contact" className="block hover:text-blue-500" onClick={() => setMenuOpen(false)}>Contact</Link>
