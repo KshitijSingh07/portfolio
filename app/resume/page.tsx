@@ -83,6 +83,7 @@ export default function ResumePage() {
         <article id="resume-print-root" className="rounded-2xl border border-border bg-background p-6 shadow-xl sm:p-10">
           <header className="border-b-2 border-foreground/80 pb-5 text-center">
             <h2 className="text-3xl font-bold tracking-tight">Kshitij Singh</h2>
+            <p className="mt-1 text-sm text-muted-foreground">+91 70816 00352</p>
             <p className="mt-2 text-sm text-muted-foreground">
               <a href="mailto:kshitijsin07@gmail.com" className="underline underline-offset-2">kshitijsin07@gmail.com</a>
               <span className="px-2">|</span>
