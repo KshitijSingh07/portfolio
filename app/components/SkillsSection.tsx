@@ -1,40 +1,34 @@
-'use client';
-
-import Image from 'next/image';
-
-const skills = [
-  { name: 'JavaScript', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-  { name: 'TypeScript', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
-  { name: 'React', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
-  { name: 'Next.js', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg' },
-  { name: 'Node.js', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
-  { name: 'Express', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg' },
-  { name: 'MongoDB', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
-  { name: 'MySQL', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
-  { name: 'Django', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg' },
-  { name: 'Java', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg' },
-  { name: 'C++', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' },
-  { name: 'Python', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
-  { name: 'Tailwind CSS', logo: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg' },
-  { name: 'Git', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' },
-  { name: 'GitHub', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' },
+const skillGroups = [
+  { title: "Languages", items: ["Java", "C++", "JavaScript", "Python"] },
+  { title: "Frontend", items: ["React.js", "Next.js", "HTML", "CSS", "Tailwind CSS"] },
+  { title: "Backend & APIs", items: ["Node.js", "Express.js", "Django", "REST APIs"] },
+  { title: "Databases", items: ["MongoDB", "MySQL"] },
+  { title: "Tools", items: ["Git", "GitHub", "Postman", "Docker", "Vercel", "Render"] },
+  { title: "CS Fundamentals", items: ["Data Structures & Algorithms", "OOP", "DBMS", "Computer Networks"] },
 ];
 
 export default function SkillsSection() {
   return (
-    <div className="bg-background text-foreground px-4 md:px-12 py-16">
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 underline underline-offset-4 decoration-blue-500">
-        Tech Stack & Tools
-      </h2>
-
-      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-8 justify-items-center">
-        {skills.map((skill) => (
-          <div key={skill.name} className="flex flex-col items-center space-y-2 hover:scale-110 transition">
-            <Image src={skill.logo} alt={skill.name} width={50} height={50} />
-            <span className="text-sm text-gray-700 dark:text-gray-300">{skill.name}</span>
-          </div>
-        ))}
+    <section className="bg-background px-5 py-20 text-foreground sm:px-8">
+      <div className="mx-auto max-w-6xl">
+        <div className="mx-auto max-w-2xl text-center">
+          <p className="text-sm font-semibold uppercase tracking-[0.25em] text-blue-600 dark:text-blue-400">What I work with</p>
+          <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-4xl">Tools for building from idea to deployment.</h2>
+          <p className="mt-4 leading-7 text-muted-foreground">A practical toolkit across programming, frontend, backend and core computer science.</p>
+        </div>
+        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {skillGroups.map((group) => (
+            <div key={group.title} className="rounded-2xl border border-border bg-card p-6 transition hover:border-blue-500/40">
+              <h3 className="font-semibold">{group.title}</h3>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {group.items.map((skill) => (
+                  <span key={skill} className="rounded-lg border border-border bg-muted/60 px-3 py-1.5 text-sm text-muted-foreground">{skill}</span>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
