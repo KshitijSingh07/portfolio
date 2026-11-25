@@ -1,6 +1,6 @@
 "use client";
 
-import { Printer, Download, ExternalLink } from "lucide-react";
+import { Printer, ExternalLink } from "lucide-react";
 
 const sections = [
   {
