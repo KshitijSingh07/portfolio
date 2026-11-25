@@ -1,10 +1,10 @@
 const skills = [
-  { category: "Programming Languages", items: ["Java", "C++", "JavaScript", "Python"] },
-  { category: "Frontend Development", items: ["React.js", "Next.js", "HTML", "CSS", "Tailwind CSS"] },
-  { category: "Backend Development", items: ["Node.js", "Express.js", "Django (Basic Familiarity)", "REST APIs"] },
-  { category: "Databases", items: ["MongoDB", "MySQL"] },
-  { category: "Developer Tools", items: ["Git", "GitHub", "Postman", "Docker", "Vercel", "Render"] },
-  { category: "Computer Science Fundamentals", items: ["Data Structures & Algorithms", "Object-Oriented Programming", "DBMS", "Computer Networks"] },
+  { category: "Programming Languages", items: ["C++", "Python", "Java", "JavaScript"] },
+  { category: "Computer Science", items: ["Data Structures & Algorithms", "Object-Oriented Programming", "DBMS", "Operating Systems"] },
+  { category: "Information Retrieval & Text Processing", items: ["TF-IDF", "Cosine Similarity", "PDF Text Extraction"] },
+  { category: "Systems & Networking", items: ["TCP/IP", "Socket Programming", "Multithreading", "Thread Pool", "Mutex", "Condition Variables"] },
+  { category: "Development", items: ["React.js", "Node.js", "Express.js", "HTML", "CSS", "REST APIs", "JWT", "Passport.js", "Joi"] },
+  { category: "Databases, Cloud & Tools", items: ["MongoDB", "Mongoose", "AWS S3", "Cloudinary", "Docker", "Git", "GitHub", "Postman"] },
 ];
 
 export default function SkillsPage() {
@@ -13,7 +13,7 @@ export default function SkillsPage() {
       <div className="mx-auto max-w-5xl">
         <p className="text-center text-sm font-semibold uppercase tracking-[0.25em] text-blue-600 dark:text-blue-400">My toolkit</p>
         <h1 className="mt-4 text-center text-4xl font-bold tracking-tight sm:text-5xl">Skills & Technologies</h1>
-        <p className="mx-auto mt-5 max-w-2xl text-center leading-8 text-muted-foreground">Technologies and fundamentals I use while building applications and exploring software engineering.</p>
+        <p className="mx-auto mt-5 max-w-2xl text-center leading-8 text-muted-foreground">Programming, systems, web development and information-retrieval skills reflected in my current resume and projects.</p>
         <div className="mt-12 grid gap-5 md:grid-cols-2">
           {skills.map(({ category, items }) => (
             <section key={category} className="rounded-3xl border border-border bg-card p-7 shadow-sm">
