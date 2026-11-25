@@ -1,6 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight, Github, Linkedin, Mail, GraduationCap, BriefcaseBusiness } from "lucide-react";
+import { ArrowUpRight, Github, Linkedin, Mail, GraduationCap, BriefcaseBusiness, Award } from "lucide-react";
+
+const certifications = [
+  "NPTEL – Introduction to Information Retrieval: 95% (Elite-Gold)",
+  "NPTEL – Business Intelligence & Analytics: 95% (Elite-Gold)",
+  "NPTEL – Blockchain and Its Applications: 87% (Elite-Silver; Top 1%)",
+  "NPTEL – Introduction to Internet of Things: 97% (Elite-Gold)",
+  "Apna College – Alpha (DSA with Java)",
+  "Apna College – Delta (Full Stack Web Development)",
+];
 
 export default function AboutPage() {
   return (
@@ -29,7 +38,7 @@ export default function AboutPage() {
               <h2 className="text-xl font-semibold">My approach</h2>
               <div className="mt-4 space-y-4 leading-8 text-muted-foreground">
                 <p>I enjoy working across the stack—from shaping a clear user experience in React to building backend services, designing APIs and connecting databases. I also like systems-level work that makes me think about concurrency, networking and performance.</p>
-                <p>My current toolkit includes Java, C++, JavaScript and Python, along with React, Next.js, Node.js, Express, Django, MongoDB and MySQL. I use Git, GitHub, Postman and Docker in my development workflow.</p>
+                <p>My current toolkit includes C++, Python, Java and JavaScript, along with React, Node.js, Express.js, MongoDB and MySQL. I use Git, GitHub, Postman and Docker in my development workflow.</p>
                 <p>I try to keep learning through projects, coursework and consistent practice. I have solved 250+ data-structures and algorithms problems on LeetCode.</p>
               </div>
             </section>
@@ -39,17 +48,25 @@ export default function AboutPage() {
                 <div className="rounded-xl bg-blue-500/10 p-3 text-blue-600 dark:text-blue-400"><GraduationCap /></div>
                 <div><h2 className="font-semibold">Education</h2><p className="text-sm text-muted-foreground">B.Tech · 2023–2027</p></div>
               </div>
-              <p className="mt-4 font-medium">Indian Institute of Information Technology, Senapati, Manipur</p>
-              <p className="mt-1 text-sm text-muted-foreground">Computer Science & Engineering</p>
+              <p className="mt-4 font-medium">Indian Institute of Information Technology, Manipur</p>
+              <p className="mt-1 text-sm text-muted-foreground">Computer Science and Engineering · CPI: 8.36 / 10.0</p>
             </section>
 
             <section className="rounded-3xl border border-border bg-card p-7">
               <div className="flex items-center gap-3">
                 <div className="rounded-xl bg-blue-500/10 p-3 text-blue-600 dark:text-blue-400"><BriefcaseBusiness /></div>
-                <div><h2 className="font-semibold">Experience</h2><p className="text-sm text-muted-foreground">June – August 2025</p></div>
+                <div><h2 className="font-semibold">Experience</h2><p className="text-sm text-muted-foreground">June – August 2025 · 8 weeks</p></div>
               </div>
               <p className="mt-4 font-medium">Web Development Intern · Brainwave Matrix Solutions</p>
-              <p className="mt-1 text-sm leading-7 text-muted-foreground">Completed an 8-week internship focused on web development and worked on practical website-building tasks.</p>
+              <p className="mt-1 text-sm leading-7 text-muted-foreground">Worked on a full-stack web application using Node.js, Express.js, MongoDB and EJS, including backend functionality, authentication, authorization and CRUD operations.</p>
+            </section>
+
+            <section className="rounded-3xl border border-border bg-card p-7">
+              <div className="flex items-center gap-3"><div className="rounded-xl bg-blue-500/10 p-3 text-blue-600 dark:text-blue-400"><Award /></div><h2 className="font-semibold">Certifications & Achievements</h2></div>
+              <ul className="mt-5 space-y-3 text-sm leading-6 text-muted-foreground">
+                {certifications.map((item) => <li key={item} className="flex gap-2"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500" /><span>{item}</span></li>)}
+                <li className="flex gap-2"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500" /><span>250+ problems solved on LeetCode</span></li>
+              </ul>
             </section>
 
             <div className="flex flex-wrap gap-3">
