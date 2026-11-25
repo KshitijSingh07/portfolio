@@ -119,3 +119,78 @@
     @apply bg-background text-foreground;
   }
 }
+
+.resume-section {
+  margin-top: 1.35rem;
+  font-size: 0.875rem;
+  line-height: 1.55;
+}
+.resume-section h3 {
+  margin-bottom: 0.55rem;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 0.3rem;
+  font-size: 0.95rem;
+  font-weight: 750;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+.resume-project {
+  margin-top: 0.8rem;
+  break-inside: avoid;
+}
+.resume-project h4 {
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+.resume-stack {
+  margin-top: 0.15rem;
+  margin-bottom: 0.25rem;
+  color: var(--muted-foreground);
+  font-size: 0.78rem;
+}
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm;
+  }
+  html, body {
+    background: white !important;
+    color: #111 !important;
+  }
+  nav, footer, [data-print-hide] {
+    display: none !important;
+  }
+  main {
+    background: white !important;
+    padding: 0 !important;
+  }
+  #resume-print-root {
+    max-width: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    color: #111 !important;
+  }
+  #resume-print-root a {
+    color: #111 !important;
+    text-decoration: none !important;
+  }
+  .resume-section {
+    margin-top: 0.9rem;
+    font-size: 9pt;
+    line-height: 1.35;
+  }
+  .resume-section h3 {
+    font-size: 9.5pt;
+  }
+  .resume-project {
+    margin-top: 0.55rem;
+  }
+  .resume-project h4 {
+    font-size: 9pt;
+  }
+  .resume-stack {
+    font-size: 8pt;
+  }
+}
