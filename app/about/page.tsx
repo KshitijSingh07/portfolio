@@ -39,7 +39,7 @@ export default function AboutPage() {
               <div className="mt-4 space-y-4 leading-8 text-muted-foreground">
                 <p>I enjoy working across the stack—from shaping a clear user experience in React to building backend services, designing APIs and connecting databases. I also like systems-level work that makes me think about concurrency, networking and performance.</p>
                 <p>My current toolkit includes C++, Python, Java and JavaScript, along with React, Node.js, Express.js, MongoDB and MySQL. I use Git, GitHub, Postman and Docker in my development workflow.</p>
-                <p>I try to keep learning through projects, coursework and consistent practice. I have solved 250+ data-structures and algorithms problems on LeetCode.</p>
+                <p>I try to keep learning through projects, coursework and consistent practice. I have solved 200+ data-structures and algorithms problems on LeetCode.</p>
               </div>
             </section>
 
@@ -49,7 +49,7 @@ export default function AboutPage() {
                 <div><h2 className="font-semibold">Education</h2><p className="text-sm text-muted-foreground">B.Tech · 2023–2027</p></div>
               </div>
               <p className="mt-4 font-medium">Indian Institute of Information Technology, Manipur</p>
-              <p className="mt-1 text-sm text-muted-foreground">Computer Science and Engineering · CPI: 8.36 / 10.0</p>
+              <p className="mt-1 text-sm text-muted-foreground">Computer Science and Engineering · Computer Science & Engineering</p>
             </section>
 
             <section className="rounded-3xl border border-border bg-card p-7">
