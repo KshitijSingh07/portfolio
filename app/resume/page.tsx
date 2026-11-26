@@ -5,19 +5,14 @@ import { Printer, ExternalLink } from "lucide-react";
 const sections = [
   {
     title: "Summary",
-    content: "Final-year Computer Science undergraduate at IIIT Manipur with a foundation in algorithms, programming, data processing and systems. Scored 95% in NPTEL Introduction to Information Retrieval and built a Python text-matching project using TF-IDF and cosine similarity. Hands-on experience with C++, multithreading, socket programming and software development; solved 250+ LeetCode problems.",
+    content: "Computer Science & Engineering undergraduate at IIIT Senapati, Manipur, with hands-on experience building full-stack applications and concurrent systems. Interested in backend engineering, software development and core computer science. Solved 200+ DSA problems on LeetCode.",
   },
 ];
 
 const projects = [
   {
-    title: "Resume Recommendation System – Text Relevance Matching",
-    stack: "Python, pdfplumber, TF-IDF, Cosine Similarity",
-    description: "Developed a text-matching system that extracts resume content from PDFs and compares it with job descriptions using TF-IDF and cosine similarity. Combined text similarity with skill and experience relevance to produce an explainable matching score.",
-    links: [{ label: "GitHub", href: "https://github.com/KshitijSingh07/Resume-Ranker" }],
-  },
   {
-    title: "Multi-threaded TCP Server – Concurrent Client Handling",
+    title: "Multi-threaded TCP Key-Value Server – Concurrent Client Handling",
     stack: "C++, TCP Sockets, Thread Pool, Mutex, Condition Variables",
     description: "Implemented a TCP server using a fixed-size worker pool and producer–consumer task queue to handle concurrent clients. Synchronised shared queue operations and used a shared mutex to support concurrent reads and safely serialise store updates. Tested multi-client behaviour and correctness under concurrent access.",
     links: [{ label: "GitHub", href: "https://github.com/KshitijSingh07/multithreaded-tcp-server" }],
@@ -44,7 +39,7 @@ const projects = [
 
 const skillGroups = [
   ["Programming", "C++, Python, Java, JavaScript"],
-  ["Computer Science", "Data Structures and Algorithms, Object-Oriented Programming, DBMS, Operating Systems"],
+  ["Computer Science", "Data Structures and Algorithms, Object-Oriented Programming, DBMS, Computer Networks"],
   ["Information Retrieval & Text Processing", "TF-IDF, Cosine Similarity, PDF Text Extraction"],
   ["Systems", "TCP/IP, Socket Programming, Multithreading, Thread Pool, Mutex, Condition Variables"],
   ["Development", "React.js, Node.js, Express.js, HTML, CSS, REST APIs, JWT, Passport.js, Joi"],
@@ -54,7 +49,7 @@ const skillGroups = [
 const certifications = [
   "NPTEL – Introduction to Information Retrieval: 95%, Elite-Gold",
   "NPTEL – Business Intelligence & Analytics: 95%, Elite-Gold",
-  "NPTEL – Blockchain and Its Applications: 87%, Elite-Silver; Top 1%",
+  "NPTEL – Blockchain and Its Applications: 87%, Top 1%",
   "NPTEL – Introduction to Internet of Things: 97%, Elite-Gold",
   "Apna College – Alpha (DSA with Java)",
   "Apna College – Delta (Full Stack Web Development)",
@@ -83,7 +78,6 @@ export default function ResumePage() {
         <article id="resume-print-root" className="rounded-2xl border border-border bg-background p-6 shadow-xl sm:p-10">
           <header className="border-b-2 border-foreground/80 pb-5 text-center">
             <h2 className="text-3xl font-bold tracking-tight">Kshitij Singh</h2>
-            <p className="mt-1 text-sm text-muted-foreground">+91 70816 00352</p>
             <p className="mt-2 text-sm text-muted-foreground">
               <a href="mailto:kshitijsin07@gmail.com" className="underline underline-offset-2">kshitijsin07@gmail.com</a>
               <span className="px-2">|</span>
@@ -104,7 +98,7 @@ export default function ResumePage() {
               <strong>Indian Institute of Information Technology, Manipur</strong>
               <span className="text-sm text-muted-foreground">2023–2027</span>
             </div>
-            <p>B.Tech, Computer Science and Engineering <span className="font-semibold">| CPI: 8.36/10.0</span></p>
+            <p>B.Tech, Computer Science and Engineering · 2023–2027</p>
           </section>
 
           <section className="resume-section">
@@ -135,7 +129,7 @@ export default function ResumePage() {
           <section className="resume-section">
             <h3>Achievements & Certifications</h3>
             <ul className="list-disc space-y-1 pl-5">
-              <li>Solved 250+ problems on LeetCode.</li>
+              <li>Solved 200+ problems on LeetCode.</li>
               {certifications.map((item) => <li key={item}>{item}</li>)}
             </ul>
           </section>
