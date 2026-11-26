@@ -62,7 +62,7 @@ export default function Hero() {
             </div>
             <div className="mt-5 grid grid-cols-2 gap-3">
               <div className="rounded-2xl border border-border bg-card p-4">
-                <p className="text-2xl font-bold">250+</p>
+                <p className="text-2xl font-bold">200+</p>
                 <p className="mt-1 text-xs text-muted-foreground">DSA problems practiced</p>
               </div>
               <div className="rounded-2xl border border-border bg-card p-4">
