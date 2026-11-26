@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-5 px-5 py-9 sm:px-8 md:flex-row">
         <div className="text-center md:text-left">
           <h2 className="font-semibold">Kshitij Singh</h2>
-          <p className="mt-1 text-sm text-muted-foreground">Computer Science & Engineering · IIIT Manipur</p>
+          <p className="mt-1 text-sm text-muted-foreground">Computer Science & Engineering · IIIT Senapati, Manipur</p>
         </div>
         <div className="flex items-center gap-5">
           <a href="https://github.com/KshitijSingh07" target="_blank" rel="noreferrer" aria-label="GitHub" className="text-muted-foreground transition hover:text-blue-500"><FaGithub size={21} /></a>
