@@ -1,4 +1,4 @@
-import { ArrowUpRight, Github, FileSearch, Server, GitBranch, Globe2 } from "lucide-react";
+import { ArrowUpRight, Github, Server, GitBranch, Globe2 } from "lucide-react";
 
 const projects = [
   {
@@ -35,20 +35,6 @@ const projects = [
     featured: true,
   },
   {
-    title: "Resume Recommendation System",
-    category: "Python · Information Retrieval",
-    description:
-      "A resume-matching prototype that compares candidate resumes with job descriptions and produces an explainable relevance score.",
-    highlights: [
-      "Extracted text from PDF resumes and prepared it for comparison.",
-      "Applied TF-IDF vectorization and cosine similarity to measure textual relevance.",
-      "Combined text similarity with skill and experience relevance in a single score.",
-    ],
-    stack: ["Python", "PDF Text Extraction", "TF-IDF", "Cosine Similarity"],
-    icon: FileSearch,
-    links: [{ label: "Source code", href: "https://github.com/KshitijSingh07/Resume-Ranker", icon: "github" }],
-    featured: true,
-  },
   {
     title: "Wanderlust — Property Listing Platform",
     category: "Full-Stack Web Application",
@@ -77,7 +63,7 @@ export default function ProjectsPage() {
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-blue-600 dark:text-blue-400">Selected work</p>
           <h1 className="mt-4 text-4xl font-bold tracking-tight sm:text-5xl">Projects that turn ideas into working software.</h1>
           <p className="mt-5 text-base leading-8 text-muted-foreground">
-            A selection of my work across full-stack development, systems programming and information retrieval. Each project has helped me strengthen a different part of the software engineering toolkit.
+            A selection of my work across full-stack development and systems programming. Each project reflects a practical engineering problem I have worked through.
           </p>
         </div>
 
