@@ -1,6 +1,6 @@
 const skills = [
   { category: "Programming Languages", items: ["C++", "Python", "Java", "JavaScript"] },
-  { category: "Computer Science", items: ["Data Structures & Algorithms", "Object-Oriented Programming", "DBMS", "Operating Systems"] },
+  { category: "Computer Science", items: ["Data Structures & Algorithms", "Object-Oriented Programming", "DBMS"] },
   { category: "Information Retrieval & Text Processing", items: ["TF-IDF", "Cosine Similarity", "PDF Text Extraction"] },
   { category: "Systems & Networking", items: ["TCP/IP", "Socket Programming", "Multithreading", "Thread Pool", "Mutex", "Condition Variables"] },
   { category: "Development", items: ["React.js", "Node.js", "Express.js", "HTML", "CSS", "REST APIs", "JWT", "Passport.js", "Joi"] },
