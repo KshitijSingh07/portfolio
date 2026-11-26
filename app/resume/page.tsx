@@ -98,7 +98,7 @@ export default function ResumePage() {
               <strong>Indian Institute of Information Technology, Manipur</strong>
               <span className="text-sm text-muted-foreground">2023–2027</span>
             </div>
-            <p>B.Tech, Computer Science and Engineering · 2023–2027</p>
+            <p>B.Tech, Computer Science and Engineering</p>
           </section>
 
           <section className="resume-section">
