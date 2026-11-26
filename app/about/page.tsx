@@ -49,7 +49,7 @@ export default function AboutPage() {
                 <div><h2 className="font-semibold">Education</h2><p className="text-sm text-muted-foreground">B.Tech · 2023–2027</p></div>
               </div>
               <p className="mt-4 font-medium">Indian Institute of Information Technology, Manipur</p>
-              <p className="mt-1 text-sm text-muted-foreground">Computer Science and Engineering · Computer Science & Engineering</p>
+              <p className="mt-1 text-sm text-muted-foreground">Computer Science & Engineering</p>
             </section>
 
             <section className="rounded-3xl border border-border bg-card p-7">
@@ -65,7 +65,7 @@ export default function AboutPage() {
               <div className="flex items-center gap-3"><div className="rounded-xl bg-blue-500/10 p-3 text-blue-600 dark:text-blue-400"><Award /></div><h2 className="font-semibold">Certifications & Achievements</h2></div>
               <ul className="mt-5 space-y-3 text-sm leading-6 text-muted-foreground">
                 {certifications.map((item) => <li key={item} className="flex gap-2"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500" /><span>{item}</span></li>)}
-                <li className="flex gap-2"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500" /><span>250+ problems solved on LeetCode</span></li>
+                <li className="flex gap-2"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500" /><span>200+ problems solved on LeetCode</span></li>
               </ul>
             </section>
 
