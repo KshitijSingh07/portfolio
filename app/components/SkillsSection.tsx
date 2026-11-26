@@ -1,7 +1,7 @@
 const skillGroups = [
   { title: "Languages", items: ["Java", "C++", "JavaScript", "Python"] },
   { title: "Frontend", items: ["React.js", "Next.js", "HTML", "CSS", "Tailwind CSS"] },
-  { title: "Backend & APIs", items: ["Node.js", "Express.js", "Django", "REST APIs"] },
+  { title: "Backend & APIs", items: ["Node.js", "Express.js", "Django (basic)", "REST APIs"] },
   { title: "Databases", items: ["MongoDB", "MySQL"] },
   { title: "Tools", items: ["Git", "GitHub", "Postman", "Docker", "Vercel", "Render"] },
   { title: "CS Fundamentals", items: ["Data Structures & Algorithms", "OOP", "DBMS", "Computer Networks"] },
