@@ -35,7 +35,6 @@ const projects = [
     featured: true,
   },
   {
-  {
     title: "Wanderlust — Property Listing Platform",
     category: "Full-Stack Web Application",
     description:
