@@ -11,7 +11,7 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 export const metadata: Metadata = {
   title: "Kshitij Singh | Software Developer Portfolio",
   description: "Kshitij Singh — Computer Science & Engineering undergraduate at IIIT Manipur. Full-stack development, backend engineering and systems programming projects.",
-  metadataBase: new URL("https://kshitij-singh.vercel.app"),
+  metadataBase: new URL("https://portfolio-kj.vercel.app"),
   openGraph: {
     title: "Kshitij Singh | Software Developer Portfolio",
     description: "Explore Kshitij Singh's projects, technical skills, experience and resume.",
