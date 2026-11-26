@@ -15,7 +15,7 @@ export default function Hero() {
           <div>
             <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-blue-500/20 bg-blue-500/5 px-4 py-2 text-sm text-blue-700 dark:text-blue-300">
               <span className="h-2 w-2 rounded-full bg-emerald-500" />
-              Computer Science & Engineering · IIIT Manipur
+              Computer Science & Engineering · IIIT Senapati, Manipur
             </div>
             <p className="text-sm font-semibold uppercase tracking-[0.28em] text-muted-foreground">Hello, I&apos;m</p>
             <h1 className="mt-3 text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
@@ -86,7 +86,7 @@ export default function Hero() {
           </div>
           <div className="space-y-4 text-base leading-8 text-muted-foreground">
             <p>I&apos;m pursuing a B.Tech in Computer Science & Engineering at the Indian Institute of Information Technology, Senapati, Manipur. My interests span application development, backend engineering, databases and concurrent systems.</p>
-            <p>During my Web Development Internship at Brainwave Matrix Solutions, I worked on practical web-development tasks. Outside coursework, I build projects that help me understand systems beyond the surface level—from full-stack platforms to a concurrent TCP server in C++.</p>
+            <p>During my Web Development Internship at Brainwave Matrix Solutions, I worked on practical web-development tasks. Outside coursework, I build projects that help me understand systems beyond the surface level—from full-stack platforms to a concurrent TCP key-value server in C++17.</p>
             <Link href="/about" className="inline-flex items-center gap-2 font-semibold text-blue-600 transition hover:gap-3 dark:text-blue-400">More about me <ArrowUpRight size={16} /></Link>
           </div>
         </div>
